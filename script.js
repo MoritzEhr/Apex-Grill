@@ -796,7 +796,6 @@ const categories = [
       `;
     } else {
       sidebar.innerHTML = `
-        <div>
           <div class="cart-header">
             <div class="cart-header-left">
               <div class="cart-header-icon">
@@ -938,11 +937,10 @@ const categories = [
               ` : ""}
               <button class="cart-checkout-btn" id="proceedCheckout" ${!meetsMinimumOrder ? "disabled style='opacity: 0.5; cursor: not-allowed;'" : ""}>
                 <i class="fa-solid fa-bag-shopping"></i>
-                Order Now
+                Continue to Checkout
               </button>
             </div>
           ` : ""}
-        </div>
       `;
     }
   

@@ -890,6 +890,7 @@ body {
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid hsl(var(--border));
+  flex-shrink: 0;
 }
 
 .cart-header-left {
@@ -948,9 +949,11 @@ body {
   font-size: 1.125rem;
 }
 
+
 .cart-content {
   flex: 1;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 1rem;
 }
 
